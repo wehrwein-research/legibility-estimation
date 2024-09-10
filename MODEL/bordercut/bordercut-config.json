@@ -1,0 +1,17 @@
+{
+    "name": "bordercut-1",
+    "trained_ckpt": "./weights/bordercut_backbone.ckpt",
+    "scrape_dir": "../../bing_maps/global-rectified-point4/",
+    "train_path":"./data/train.csv",
+    "val_path":"./data/val.csv",
+    "img_list": "../../data/valid_tiles.txt",
+    "num_epochs": 40,
+    "lr": 0.0001,
+    "batch_size":4,
+    "weight_decay":0,
+    "early_stopping":false,
+    "concat": true,
+    "dropout":0.04684,
+    "blur_kernal_size":9,
+    "colorshift":0.4994
+}
